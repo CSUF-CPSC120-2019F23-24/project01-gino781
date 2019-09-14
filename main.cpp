@@ -3,13 +3,13 @@
 #include <iostream>
 #include <string>
 #include <iomanip>
-
+//identifying variables
 int main()
 {
   double days, hotel_expense, meal_expense, total;
 
   std::string location;
-
+// Variables
   std::cout << "What is the business trip location? ";
   std::cin >> location;
 
@@ -21,9 +21,9 @@ int main()
 
   std::cout << "What is the total meal expense? ";
   std::cin >> meal_expense;
-
+// Equation for the total
   total = hotel_expense + meal_expense;
-
+// Answers for the equation
   std::cout << std::setw(10) << "Location " << location;
   std::cout << std::setw(10) << "Days " << days;
   std::cout << std::setw(10) << "Hotel  " << hotel_expense;
